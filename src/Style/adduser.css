@@ -1,0 +1,16 @@
+.form{
+    background-color: rgba(189, 113, 13, 0.834);
+    padding: 30px 30px;
+    font-size: 25px;
+    margin:0px 500px;
+    box-shadow: 8px 8px 8px 8px black;
+}
+.formm input{
+    padding: 20px 85px;
+    margin-top: 10px;
+    text-align: left;
+}
+.form button{
+    padding: 10px 35px;
+    margin: 10px 8px;
+}

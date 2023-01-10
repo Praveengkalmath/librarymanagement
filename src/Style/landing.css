@@ -1,0 +1,58 @@
+.landingpage{
+    margin: 0px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../../public/images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.landingpage h1{
+    margin: 0px;
+    color: rgba(248, 246, 246, 0.785);
+    font-size: 62px;
+    background-color: rgba(193, 168, 137, 0.081);
+}
+.selectLogin{
+    /* flex-wrap: wrap; */
+    width: 600px;
+    margin: 70px auto;
+    padding: 20px ;
+    /* margin-left: 400px; */
+    padding-bottom: 200PX;
+}
+.login{
+    display: flex;
+    justify-content: space-evenly;
+}
+.land_user button{
+    padding: 10px 50px;
+    background-color: rgba(127, 255, 212, 0.484);
+    border: none;
+    border-radius: 3px;
+}
+.land_admin button{
+    padding: 10px 50px;
+    background-color: rgba(238, 198, 164, 0.836);
+    border: none;
+    border-radius: 3px;
+}
+.selectLogin a{
+    text-decoration: none;
+    color: black;
+}
+.land_admin,.land_user{
+    margin: 0px 180px;
+    background-color: rgba(215, 203, 186, 0.004);
+    border-radius: 20px;
+}
+.land_admin img:hover ,.land_user img:hover{
+    transform: scale(1.1);
+}
+.btn1,.btn2{
+    padding: 10px 50px;
+}
+.btn1:hover,.btn2:hover{
+    /* background-color: rgba(0, 0, 0, 0.747); */
+    color: aliceblue;
+    transform: scale(1.1);
+    font-size: 20px;
+}

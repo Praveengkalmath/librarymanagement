@@ -1,0 +1,26 @@
+
+.nav_head{
+    width: 100%;
+    /* margin: 0px -7px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(89, 89, 90, 0.57)
+    
+}
+.nav_links li{
+    display: inline-block;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+.nav_links a{
+    text-decoration: none;
+    color: rgb(7, 7, 118);
+    font-size: 20px;
+}
+.nav_links a:hover {
+   color: white;
+   /* text-decoration: underline; */
+}
+.nav_logo{
+    padding-left: 20px;
+}

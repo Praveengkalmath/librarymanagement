@@ -1,0 +1,55 @@
+
+.formcontainercard{
+    /* background-image: url('../../public/images/img2.jpg'); */
+    background-color: rgba(242, 247, 243, 0);
+    margin: 50px 300px;
+    padding: 80px 0px;
+    border-radius: 50px;
+    border-color: aliceblue;
+    border: 5px solid;
+    box-shadow: 10px 10px 10px 10px;
+}
+.form_input input{
+padding: 10px 30px;
+background-color: rgba(249, 246, 246, 0.552);
+font-size: 20px;
+margin-bottom: 30px;
+}
+.btnbtn-primary{
+    padding: 10px 50px;
+}
+.form_input label{
+    color: rgba(240, 248, 255, 0.867);
+    font-size: 40px;
+    font-weight: 500px;
+
+    
+}
+.formcontainercard h1{
+    font-size: 60px;
+    margin: 0px;
+    padding-bottom: 40px;
+    color: rgba(240, 248, 255, 0.853);
+}
+body{
+    background-image:url(../../public/images/img7.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-size: cover;
+}
+.btnbtn-primary{
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btnbtn-primary:hover{
+    background-color: rgba(0, 0, 0, 0.293);
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.userLogin{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../../public/images/img10.jpg);
+    padding: 90px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
